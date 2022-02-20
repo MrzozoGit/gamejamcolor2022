@@ -83,10 +83,10 @@ MonoBehaviour:
   m_AdvancedMode: 0
   isEnabled:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   bloom:
     m_OverrideState: 1
-    m_Value: 0.0625
+    m_Value: 0.751
     min: 0
     max: 1
   grateMaskMode:
@@ -100,12 +100,12 @@ MonoBehaviour:
     m_Value: 1
   scanlineSharpness:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 1
     min: 0
     max: 1
   imageSharpness:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0.478
     min: 0
     max: 1
   bloomSharpnessX:
@@ -120,12 +120,12 @@ MonoBehaviour:
     max: 1
   noiseIntensity:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0
     min: 0
     max: 1
   noiseSaturation:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
     min: 0
     max: 1
   grateMaskIntensityMin:
@@ -140,17 +140,17 @@ MonoBehaviour:
     max: 1
   barrelDistortionX:
     m_OverrideState: 1
-    m_Value: 0.125
+    m_Value: 0.173
     min: 0
     max: 1
   barrelDistortionY:
     m_OverrideState: 1
-    m_Value: 0.33333334
+    m_Value: 0.166
     min: 0
     max: 1
   vignette:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0.364
     min: 0
     max: 1
 --- !u!114 &11400000
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   skyMode:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 0
   framebufferDitherWeight:
     m_OverrideState: 1
     m_Value: 0
@@ -309,7 +309,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   isEnabled:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   fogFalloffMode:
     m_OverrideState: 1
     m_Value: 0
@@ -318,7 +318,7 @@ MonoBehaviour:
     m_Value: 0
   color:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0.5896226, b: 0.895949, a: 1}
+    m_Value: {r: 1, g: 0.7877358, b: 0.94541776, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
@@ -339,11 +339,11 @@ MonoBehaviour:
     min: 0
   distanceMax:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 40
     min: 0.00001
   fogFalloffCurve:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.32
     min: -1
     max: 1
   heightFalloffEnabled:
