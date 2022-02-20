@@ -82,7 +82,7 @@ ScriptsOnlyBuild:
     - HauntedPSX.RenderPipelines.PSX.Runtime.QualityOverrideVolume
     - HauntedPSX.RenderPipelines.PSX.Runtime.SkyVolume
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Main.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -101,13 +101,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 65
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -169,8 +169,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
     - Class: 143
       Script: {instanceID: 0}
     - Class: 157
@@ -209,8 +207,6 @@ ScriptsOnlyBuild:
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -1090,5 +1086,6 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/StartMenu.unity
-  - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Game dev/Unity/Gamejam/gamejamcolor2022/Builds/Gamejam Color.exe
+  - Assets/Scenes/Main.unity
+  playerPath: C:/Users/Sukai/Documents/Unity/gamejamcolor/projetgit/gamejamcolor2022/Builds/Gamejam
+    Color.exe
